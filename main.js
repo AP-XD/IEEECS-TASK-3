@@ -9,7 +9,7 @@ function analyzer()
     if (s.length==0)
     document.getElementById("string").textContent = "Bro Wtf! Enter some Text atleast!!!";
     else
-    document.getElementById("string").textContent = s;
+    document.getElementById("string").textContent = "Given Input :" + s;
     var vowels = 0, consonants = 0, digits = 0, spaces = 0, splchar = 0;
     for(var i=0; i<s.length; i++)
     {
