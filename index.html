@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&button=swap"
+      rel="stylesheet"
+    />
+    <title>Task 3</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>string analyser</h1>
+      </div>
+      <div class="textbox1">
+        <p>
+          This analyser will help you to count vowels, consonents, special
+          characters, spaces and digits in given string
+        </p>
+      </div>
+      <div class="textbox2">
+        <p>Enter your text here :</p>
+      </div>
+      <div>
+        <input type="text" placeholder="Type here..." id="input" />
+      </div>
+      <div>
+        <button onclick="analyzer()" id="button">Analyse</button>
+      </div>
+      <div class="textbox3">
+        <span>Given input:</span><span id="string"></span>
+      </div>
+
+      <div class="output">
+        <div class="button1">Vowels : <span id="Vowels"></span></div>
+        <div class="button2">Consonants : <span id="Consonants"></span></div>
+        <div class="button1">Digits : <span id="Digits"></span></div>
+        <div class="button2">Spaces : <span id="Spaces"></span></div>
+        <div class="button1">
+          Special characters : <span id="Splchar"></span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
