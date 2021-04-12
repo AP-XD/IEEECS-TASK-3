@@ -48,6 +48,7 @@ body {
   color: white;
   margin: 20px;
   font-size: 20px;
+  word-wrap: break-word;
 }
 div > input {
   outline: none;
